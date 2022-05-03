@@ -15,7 +15,7 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import { BsFilterRight } from "react-icons/Bs";
-import { IoMdArrowDropdown } from "react-icons/Io";
+// import { IoMdArrowDropdown } from "react-icons/Io";
 
 function NavTabs() {
   return (
@@ -72,14 +72,20 @@ function NavTabs() {
             as={Button}
             leftIcon={<BsFilterRight />}
             _focus={{ border: "none", outline: "none" }}
-            _active={{bg: "black"}}
+            _active={{ bg: "black" }}
             fontSize="18px"
             _selected={{ bg: "brand.bg" }}
             _hover={{ bg: "brand.bg" }}
           >
             Filter
           </MenuButton>
-          <MenuList bg="brand.black" ali={"center"} px="30px" pb={"12px"} border={"none"}>
+          <MenuList
+            bg="brand.black"
+            ali={"center"}
+            px="30px"
+            pb={"12px"}
+            border={"none"}
+          >
             <Text
               pb="12px"
               pl="12px"
@@ -94,8 +100,8 @@ function NavTabs() {
               rounded={"4.69px"}
               border={"none"}
               mt={"28px"}
-              
-              icon={<IoMdArrowDropdown />}
+
+              // icon={<IoMdArrowDropdown />}
             ></Select>
             <Select
               placeholder="city"
@@ -103,7 +109,7 @@ function NavTabs() {
               rounded={"4.69px"}
               mt={"12.5px"}
               mb={"12.5px"}
-              icon={<IoMdArrowDropdown />}
+              // icon={<IoMdArrowDropdown />}
             ></Select>
           </MenuList>
         </Menu>
