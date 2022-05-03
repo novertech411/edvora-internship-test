@@ -14,8 +14,8 @@ import {
   Text,
 } from "@chakra-ui/react";
 import React from "react";
-import { BsFilterRight } from "react-icons/Bs";
-// import { IoMdArrowDropdown } from "react-icons/Io";
+import { BsFilterRight } from "react-icons/bs";
+import { IoMdArrowDropdown } from "react-icons/io";
 
 function NavTabs() {
   return (
